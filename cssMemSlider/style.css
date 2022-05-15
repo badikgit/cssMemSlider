@@ -122,3 +122,20 @@ input {
   background-color: white;
   border: 0.2em white solid;
 }
+
+#slider-check-1:checked~.controls .slider-label-1:hover span,
+#slider-check-2:checked~.controls .slider-label-2:hover span,
+#slider-check-3:checked~.controls .slider-label-3:hover span,
+#slider-check-4:checked~.controls .slider-label-4:hover span {
+  background-color: transparent;
+  border: 0.2em white solid;
+  box-shadow: 0 0 0.8em white;
+}
+
+#slider-check-1:checked~.controls .slider-label-1 span,
+#slider-check-2:checked~.controls .slider-label-2 span,
+#slider-check-3:checked~.controls .slider-label-3 span,
+#slider-check-4:checked~.controls .slider-label-4 span {
+  background-color: transparent;
+  border: 0.2em white solid;
+}
