@@ -117,10 +117,13 @@ input {
   box-shadow: 0 0 0.8em white;
 }
 
-.slider-label:hover span,
-.slider-label:active span {
+.slider-label:hover span {
   background-color: white;
   border: 0.2em white solid;
+}
+
+.slider-label:active span {
+ transform: scale(0.8);
 }
 
 #slider-check-1:checked~.controls .slider-label-1:hover span,
